@@ -1,7 +1,7 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(http://www.zingerbugimages.com/backgrounds/wrinkled_white_paper_background_1800x1600.jpg) repeat;
+  background: url("flag.jpg") repeat;
 }
 #wrapper {
   width: 960px;
