@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kellogg Rebrands</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="wrapper">
+  <p><a href="index.html">Go back to the homepage</a></p>
+    <h1>Recently Kellogg decided to Rebrand itself</h1>
+    
+    
+    
+    <section>
+      <h2>This rebranding made us feel many feelings</h2>
+      <ul>
+        <li><a href="http://www.kellogg.northwestern.edu/">Click here to see the new branding</a></li>
+        <li><a href="http://web.archive.org/web/20140620062540/http://www.kellogg.northwestern.edu/">Click here to see the old branding</a></li>
+        
+      </ul>
+   	</section>
+
+    <section>
+    <h2>The rebranding is apparently built on three things</h2>
+    </section>
+
+    <section>
+    <p>
+      <table>
+      <tr>
+      <!--header row  -->
+        <th>Pillar</th>
+        <th>What in the heck that means</th>
+      <!--data row  -->
+      </tr>
+      <tr>
+        <td>Our distinctive approach to thought leadership</td>
+        <td>Solving real-world problems?</td>
+      </tr>
+      <tr>
+        <td>Our innovative portfolio</td>
+        <td>Leading powerful organizations?</td>
+      </tr>
+      <tr>
+        <td>Our vibrant community and culture</td>
+        <td>Being surrounded by inspiration?</td>
+      </tr>
+      </table>
+      </p>
+      </section>
+
+      <section>
+      <h2>Obviously this made us think many thoughts</h2>
+
+      	<h3>1. What is inspiring growth?</h3>
+     	<p>
+     		 <img src="growing.gif">
+    	</p>
+
+    	<h3>2. How many buzzwords can you fit into one brand excercise?</h3>
+
+    	<p>
+     		<img src="jargon.jpg">
+    	</p>
+
+    	<h3>3. So not only are we thought leaders, but we have a distinctive approach?</h3>
+
+    	<p>
+      	<img src="thoughtlead.png" width="50%" height="50%">
+    	</p>
+
+    	<h3>4. "Growth is a mindset." Is it though?</h3>
+
+   		<p>
+      		<img src="sloth.gif">
+    	</p>
+
+    	<h3>5. Did we really get anywhere with this whole exercise?</h3>
+
+    	<p>
+      		<img src="fish.jpg" width="50%" height="50%">
+    	</p>
+    	</section>
+    
+      
+      
+    
+  </div>
+</body>
+</html>

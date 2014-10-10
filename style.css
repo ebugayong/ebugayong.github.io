@@ -1,9 +1,36 @@
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
+  font-family: 'Lato', arial, sans-serif;
   font-weight: 300;
-  background: url("flag.png") repeat;
+  background: url("newflag.jpg") repeat;
 }
+h1 {
+	font-size: 36px;
+	font-style: bold purple;
+	border: 5px dashed purple;
+	width: 400px;
+	height: auto;
+	margin: 10px;
+	padding: 10px;
+}
+
 #wrapper {
   width: 960px;
   margin: 20px auto;
+}
+div#wrapper{
+	background-color: white;
+	background:rgba(255,255,255,0.75);
+	width: 960px;
+	margin:20px auto;
+	padding: 20px;
+}
+p, li {
+	line-height: 26px;
+}
+
+img{
+	border: 5px solid purple;
+
+	float: auto;
+
 }
