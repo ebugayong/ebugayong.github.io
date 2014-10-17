@@ -1,0 +1,11 @@
+body {
+  font-family: 'Lato', arial, sans-serif;
+  font-weight: 300;
+  background: url("newflag.jpg") repeat;
+}
+div#wrapper{
+	background-color: white;
+	background:rgba(255,255,255,0.75);
+	margin: 20px;
+	padding: 20px;
+	}
