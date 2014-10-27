@@ -1,11 +1,36 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   font-weight: 300;
+  
+  
+}
+div#background1 {
   background: url("newflag.jpg") repeat;
 }
+
+div#background2 {
+  background: url("kellogg.jpg") repeat;
+}
+div#background3 {
+  background: url("desktop.jpg") repeat;
+  background-size: contain;
+}
+div#background4 {
+  background: url("glitter2.jpg") repeat; 
+}
+
+
 div#wrapper{
-	background-color: white;
+	background-color:white;
 	background:rgba(255,255,255,0.75);
-	margin: 20px;
+		margin: 20px;
 	padding: 20px;
 	}
+
+	div#wrapper2{
+		margin: 20px;
+	padding: 20px;
+	}
+
+
+	
