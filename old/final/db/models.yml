@@ -1,0 +1,24 @@
+FirstYear:
+  first_name: string
+  last_name: string
+  email_address: string
+  password: string
+
+SecondYear:
+  first_name: string
+  last_name: string
+  email_address: string
+  password: string
+
+Case:
+  source_id: integer
+  title: string
+
+CaseSource:
+  source: string
+
+Meeting:
+  meeting_time: datetime
+  firstyear_id: integer
+  secondyear_id: integer
+  case_id: integer

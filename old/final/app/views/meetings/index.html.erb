@@ -1,0 +1,10 @@
+<h1>Appointment</h1>
+
+<p><a href="/movies/new" class="btn btn-primary">New Movie</a></p>
+<table class="table">
+<% @meetings.each do |meeting| %>
+<tr>
+  <td><a href="/meetings/<%= meeting.id %>"><%= meeting.meeetingtime%></a></td>
+  </tr>
+<% end %>
+</table>

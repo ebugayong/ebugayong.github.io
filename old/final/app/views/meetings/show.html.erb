@@ -1,0 +1,9 @@
+<h1><%= @meeting.meetingtime %></h1>
+
+<p>First Year: <%= @meeting.FirstYear %></p>
+
+<p>Second Year: <%= @meeting.SecondYear %></p>
+<h3>Cast</h3>
+<%@actors.each do |actor| %>
+<p><%=actor.name%></p>
+<% end %>

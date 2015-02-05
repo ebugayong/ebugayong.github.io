@@ -1,5 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 # Deletes everything from the database so that you start fresh
 puts "Deleting all records from the database..."
 FirstYear.delete_all
@@ -10,20 +8,20 @@ Meeting.delete_all
 
 # Create the first years
 puts "Creating First Years..."
-Mann = FirstYear.create(first_name: 'Ryan ', last_name: 'Mann', email_address: 'rmann2016@kellogg.northwestern.edu', password: 'AppCreator')
-Smith = FirstYear.create(first_name: 'John ', last_name: 'Smith', email_address: 'jsmith2016@kellogg.northwestern.edu', password: 'Generic')
-Hendrix = FirstYear.create(first_name: 'Jimmy ', last_name: 'Hendrix', email_address: 'jhendrix2016@kellogg.northwestern.edu', password: 'Spangled')
+Mann = FirstYear.create(first_name: 'Ryan', last_name: 'Mann', email_address: 'rmann2016@kellogg.northwestern.edu', password: 'AppCreator')
+Smith = FirstYear.create(first_name: 'John', last_name: 'Smith', email_address: 'jsmith2016@kellogg.northwestern.edu', password: 'Generic')
+Hendrix = FirstYear.create(first_name: 'Jimmy', last_name: 'Hendrix', email_address: 'jhendrix2016@kellogg.northwestern.edu', password: 'Spangled')
 Bugayong = FirstYear.create(first_name: 'Elizabeth ', last_name: 'Bugayong', email_address: 'ebugayong2015@kellogg.northwestern.edu', password: 'Password')
-Jelinek = FirstYear.create(first_name: 'Ashley ', last_name: 'Jelinek', email_address: 'ajelinek2015@kellogg.northwestern.edu', password: 'Missing')
+Jelinek = FirstYear.create(first_name: 'Ashley', last_name: 'Jelinek', email_address: 'ajelinek2015@kellogg.northwestern.edu', password: 'Missing')
 
 
 # Create the second years
 puts "Creating SecondYears..."
-Paper = SecondYear.create(first_name: 'Copy ', last_name: 'Paper', email_address: 'cpaper2015@kellogg.northwestern.edu', password: 'Friday 99')
-John = SecondYear.create(first_name: 'Little ', last_name: 'John', email_address: 'ljohn2015@kellogg.northwestern.edu', password: 'Yeahhh')
-Zee = SecondYear.create(first_name: 'Jay ', last_name: 'Zee', email_address: 'jzee2015@kellogg.northwestern.edu', password: 'Uhhuh')
-Knowles = SecondYear.create(first_name: 'Beyonce ', last_name: 'Knowles', email_address: 'wokeuplikethis@fab.com', password: 'Surfboard')
-West = SecondYear.create(first_name: 'Kanye ', last_name: 'West', email_address: 'yeezus@yeezus.com', password: 'Croissants')
+Paper = SecondYear.create(first_name: 'Copy', last_name: 'Paper', email_address: 'cpaper2015@kellogg.northwestern.edu', password: 'Friday 99')
+John = SecondYear.create(first_name: 'Little', last_name: 'John', email_address: 'ljohn2015@kellogg.northwestern.edu', password: 'Yeahhh')
+Zee = SecondYear.create(first_name: 'Jay', last_name: 'Zee', email_address: 'jzee2015@kellogg.northwestern.edu', password: 'Uhhuh')
+Knowles = SecondYear.create(first_name: 'Beyonce', last_name: 'Knowles', email_address: 'wokeuplikethis@fab.com', password: 'Surfboard')
+West = SecondYear.create(first_name: 'Kayne', last_name: 'West', email_address: 'yeezus@yeezus.com', password: 'Croissants')
 
 # Create the casesource
 puts "Creating casesources..."

@@ -1,0 +1,27 @@
+Movie:
+  name: string
+  summary: text
+  year_released: string
+  director_id: integer
+
+Actor:
+  name: string
+
+Role:
+  movie_id: integer
+  actor_id: integer
+  character: string
+
+Director:
+  name: string
+
+User:
+  email: string
+  password: string
+  name: string
+
+Review:
+  movie_id: integer
+  user_id: integer
+  rating: integer
+  body: text
