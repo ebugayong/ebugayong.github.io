@@ -1,0 +1,2 @@
+class FinalController < ApplicationController
+end

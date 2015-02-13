@@ -1,9 +1,14 @@
-<h1>List of all first years</h1>
+<h1 class="page-header">
+  All First Years
+  <span class="pull-right">
+    <%= link_to "Add First Year", new_firstyear_path, class: 'btn btn-sm btn-success' %>
+  </span>
+</h3>
 
 <table class="table">
-<% @firstyears.each do |firstyear| %>
-  <tr>
-    <td> <a href="/firstyears/<%=firstyear.id %>"> <%= firstyear.first_name %><%= firstyear.last_name %></a></td>
-  </tr>
-<% end %>
+  <% @firstyears.each do |firstyear| %>
+    <tr>
+    <td> <%= link_to firstyear.first_name + " "+firstyear.last_name, firstyear_path(firstyear) %> <%= link_to "Edit", edit_firstyear_path(firstyear) %> <%= link_to "Delete", firstyear_path(firstyear), method: :delete, data: { confirm: "Are you sure?"} %></td>
+    </tr>
+  <% end %>
 </table>

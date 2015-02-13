@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 0) do
 
   add_index "cases", ["source_id"], name: "index_cases_on_source_id"
 
-  create_table "first_years", force: :cascade do |t|
+  create_table "firstyears", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
     t.string "email_address"

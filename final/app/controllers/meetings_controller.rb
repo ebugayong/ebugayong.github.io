@@ -1,2 +1,3 @@
-class MeetingsController < ApplicationController
+class MeetingsController <ApplicationController 
 
+end 

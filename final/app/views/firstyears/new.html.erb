@@ -1,0 +1,9 @@
+<%= form_for @firstyear do |form| %>
+  <div class="form-group">
+    <%= form.label :first_name %>
+    <%= form.text_field :first_name, class: "form-control" %>
+    <%= form.label :last_name %>
+    <%= form.text_field :last_name, class: "form-control" %>
+  </div>
+  <%= form.button 'Add First Year', class: "btn btn-success" %>
+<% end %>

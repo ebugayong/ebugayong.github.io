@@ -2,7 +2,7 @@
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 # Deletes everything from the database so that you start fresh
 puts "Deleting all records from the database..."
-FirstYear.delete_all
+Firstyear.delete_all
 SecondYear.delete_all
 Case.delete_all
 CaseSource.delete_all
@@ -10,20 +10,20 @@ Meeting.delete_all
 
 # Create the first years
 puts "Creating First Years..."
-Mann = FirstYear.create(first_name: 'Ryan ', last_name: 'Mann', email_address: 'rmann2016@kellogg.northwestern.edu', password: 'AppCreator')
-Smith = FirstYear.create(first_name: 'John ', last_name: 'Smith', email_address: 'jsmith2016@kellogg.northwestern.edu', password: 'Generic')
-Hendrix = FirstYear.create(first_name: 'Jimmy ', last_name: 'Hendrix', email_address: 'jhendrix2016@kellogg.northwestern.edu', password: 'Spangled')
-Bugayong = FirstYear.create(first_name: 'Elizabeth ', last_name: 'Bugayong', email_address: 'ebugayong2015@kellogg.northwestern.edu', password: 'Password')
-Jelinek = FirstYear.create(first_name: 'Ashley ', last_name: 'Jelinek', email_address: 'ajelinek2015@kellogg.northwestern.edu', password: 'Missing')
+Mann = Firstyear.create(first_name: 'Ryan ', last_name: 'Mann', email_address: 'rmann2016@kellogg.northwestern.edu', password: 'AppCreator')
+Smith = Firstyear.create(first_name: 'John ', last_name: 'Smith', email_address: 'jsmith2016@kellogg.northwestern.edu', password: 'Generic')
+Hendrix = Firstyear.create(first_name: 'Jimmy ', last_name: 'Hendrix', email_address: 'jhendrix2016@kellogg.northwestern.edu', password: 'Spangled')
+Bugayong = Firstyear.create(first_name: 'Elizabeth ', last_name: 'Bugayong', email_address: 'ebugayong2015@kellogg.northwestern.edu', password: 'Password')
+Jelinek = Firstyear.create(first_name: 'Ashley ', last_name: 'Jelinek', email_address: 'ajelinek2015@kellogg.northwestern.edu', password: 'Missing')
 
 
 # Create the second years
 puts "Creating SecondYears..."
-Paper = SecondYear.create(first_name: 'Copy ', last_name: 'Paper', email_address: 'cpaper2015@kellogg.northwestern.edu', password: 'Friday 99')
-John = SecondYear.create(first_name: 'Little ', last_name: 'John', email_address: 'ljohn2015@kellogg.northwestern.edu', password: 'Yeahhh')
-Zee = SecondYear.create(first_name: 'Jay ', last_name: 'Zee', email_address: 'jzee2015@kellogg.northwestern.edu', password: 'Uhhuh')
-Knowles = SecondYear.create(first_name: 'Beyonce ', last_name: 'Knowles', email_address: 'wokeuplikethis@fab.com', password: 'Surfboard')
-West = SecondYear.create(first_name: 'Kanye ', last_name: 'West', email_address: 'yeezus@yeezus.com', password: 'Croissants')
+Paper = SecondYear.create(first_name: 'Copy', last_name: 'Paper', email_address: 'cpaper2015@kellogg.northwestern.edu', password: 'Friday 99')
+John = SecondYear.create(first_name: 'Little', last_name: 'John', email_address: 'ljohn2015@kellogg.northwestern.edu', password: 'Yeahhh')
+Zee = SecondYear.create(first_name: 'Jay', last_name: 'Zee', email_address: 'jzee2015@kellogg.northwestern.edu', password: 'Uhhuh')
+Knowles = SecondYear.create(first_name: 'Beyonce', last_name: 'Knowles', email_address: 'wokeuplikethis@fab.com', password: 'Surfboard')
+West = SecondYear.create(first_name: 'Kayne', last_name: 'West', email_address: 'yeezus@yeezus.com', password: 'Croissants')
 
 # Create the casesource
 puts "Creating casesources..."
@@ -49,4 +49,4 @@ meeting3 = Meeting.create(meeting_time: '2015,1,2,5,6', firstyear_id: Smith.id, 
 meeting4 = Meeting.create(meeting_time: '2015,1,2,6,7', firstyear_id: Jelinek.id, secondyear_id: Paper.id, case_id: case3.id)
 meeting5 = Meeting.create(meeting_time: '2015,1,2,7,8', firstyear_id: Jelinek.id, secondyear_id: Paper.id, case_id: case3.id)
 
-puts "There are now #{FirstYear.count} first years, #{SecondYear.count} second years, #{Case.count} cases from #{CaseSource.count} sources, and #{Meeting.count} meetings in the database."
+puts "There are now #{Firstyear.count} first years, #{SecondYear.count} second years, #{Case.count} cases from #{CaseSource.count} sources, and #{Meeting.count} meetings in the database."
