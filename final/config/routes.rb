@@ -4,6 +4,8 @@ resources :firstyears
 
 root to: "firstyears#index"
 
+resources :meetings
+
 end
 
   # The priority is based upon order of creation: first created -> highest priority.

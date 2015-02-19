@@ -10,7 +10,7 @@ class FirstyearsController < ApplicationController
 
   def show 
     @firstyear = Firstyear.find_by(id: params["id"])
-    @meetings = Meeting.where(firstyear_id: @firstyear.id)
+        @meetings = Meeting.where(meeting_id: @firstyear.id)
     @cases = []
     @meetings.each do |meeting|
     @cases << Case.find_by(id: meeting.firstyear_id)
